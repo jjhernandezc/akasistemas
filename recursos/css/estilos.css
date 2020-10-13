@@ -125,21 +125,14 @@ background-color: gray;
     }
 }
 
-@media (max-width: 600px) {
-    .carousel-caption {
-        bottom: 10%;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-}
 @media (max-width: 576px) {
     .carousel-caption {
-        bottom: 0%;
+        bottom: 30%;
         padding-top: 20px;
         padding-bottom: 20px;
     }
     .carousel-caption h2 {
-        font-size: 19px;
+        font-size: 29px;
         text-shadow: 2px 2px 4px #000000;
     }
     .txt-banner{
