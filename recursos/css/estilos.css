@@ -3,7 +3,8 @@ body{
 }
 .menu-line{
     border-bottom-style:groove;
-    border-color: #12126B;
+    /* border-color: #4e74ea; */
+    border-color: #4e74ea;
 }
 .carousel-caption {
     position: absolute;
@@ -17,7 +18,7 @@ body{
     text-align: center;
 }
 .titulo{
-    color: #181d64;
+    color:#4e74ea;
     font-size: 28px;
     text-align: center;
     margin-top: 30px;
@@ -29,7 +30,8 @@ footer{
     padding-bottom: 14px;
     color: white;
     text-align: center;
-    background-color: black;
+    /* background-color: black; */
+    background-color: #8f9699;   
 }
 
 .hr-footer{
@@ -43,7 +45,7 @@ footer{
     padding-bottom: 20px;
     font-size: 13px;
     margin-bottom: 0px;
-    background-color:#12126B;
+    background-color:#4e74ea;
     color: white;
     text-align: center;
 }
@@ -59,7 +61,7 @@ footer{
     padding-right: 7px;
 }
 .actual{
-    border-bottom: 1px groove  #12126B;
+    border-bottom: 1px groove  #4e74ea;
    
 }
 
@@ -74,19 +76,19 @@ footer{
 
 }
 .separador-contcto{
-    background-color:#12126B;
+    background-color:#4e74ea;
     width:50%;
     text-align: center;
 }
 
 .i-color{
-    color: #12126B;
+    color: #4e74ea;
 }
 .tarjeta{
-    border-color:  #12126B;
+    border-color:  #4e74ea;
 }
 .borde-servicios{
-    border-left: 1px groove #12126B;  
+    border-left: 1px groove #4e74ea;  
 }
 .servicio-h:hover{
 background-color: gray;
@@ -96,14 +98,14 @@ background-color: gray;
 }
 
 .titulo-flip{
-    color: #181d64;
+    color:#4e74ea;
     font-size: 28px;
     text-align: center;
     font-weight: bold;
 }
 .flip-borde{
-    /* 1px groove  #12126B; */
-    border: 1px double  #12126B;
+    /* 1px groove  #4e74ea; */
+    border: 1px double  #4e74ea;
 }
 .txt.c{
     text-align: center;
@@ -127,7 +129,7 @@ background-color: gray;
 
 @media (max-width: 576px) {
     .carousel-caption {
-        bottom: 30%;
+        bottom: 20%;
         padding-top: 20px;
         padding-bottom: 20px;
     }
@@ -151,6 +153,37 @@ background-color: gray;
     }    
 
  }
+
+ .txt-just {
+    text-align: justify;
+    color: #8f9699;
+ }
+ .txt-gris {
+     color: #8f9699;
+ }
+ .trasparencia{
+     background-color: rgba(0, 0, 0, 0.5);
+     margin: auto;
+     padding-top: 10px;
+     padding-bottom: 10px;
+ }
+ .ancho-1{
+    max-width: 235px;
+ }
+ .ancho-2{
+    max-width: 260px;
+ }
+ .ancho-3{
+    max-width: 500px;
+ }
+
+
+ .txt-trasparencia{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
 
 
